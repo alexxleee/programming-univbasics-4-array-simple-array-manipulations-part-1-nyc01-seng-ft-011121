@@ -1,15 +1,24 @@
+def using_push(array, string)
+  array.push(string)
+end
+
+def using_unshift(array, string)
+  array.unshift(string)
+end
+
 def using_pop(array)
-  continent = ["Africa", "Asia"]
-  continent.pop
   array.pop
 end
 
-def using_pop2(array)
-  array.pop
+def pop_with_args(array, string)
+  array.push(string)
 end
 
+def using_shift(array, string)
+  array.push(string)
+end
 
-p using_pop(["a", "b", "c"])
-
-p using_pop2(["a", "b", "c"])
-
+def shift_with_args(array, string)
+  array.push(string)
+end
+*/
